@@ -1,0 +1,14 @@
+node_modules
+.next
+.env.local
+.env
+npm-debug.log*
+dev-server.log
+dev-server-error.log
+dev-direct.log
+dev-direct-error.log
+dev2.log
+dev2.err
+dev2.pid
+prod2.log
+prod2.err
