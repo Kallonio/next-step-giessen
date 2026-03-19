@@ -3,8 +3,8 @@ import Link from "next/link";
 import { contactDetails, legalDetails } from "@/lib/data";
 
 export const metadata = {
-  title: "Impressum | Next Step Giessen",
-  description: "Impressum der Website Next Step Giessen.",
+  title: "Impressum | Next Step Gießen",
+  description: "Impressum der Website Next Step Gießen.",
 };
 
 export default function ImpressumPage() {
@@ -13,7 +13,7 @@ export default function ImpressumPage() {
       <div className="container-shell">
         <div className="mx-auto max-w-3xl rounded-[2rem] border border-slate-200 bg-white p-8 shadow-soft sm:p-10">
           <Link href="/" className="text-sm font-semibold text-brand-700">
-            Zurueck zur Startseite
+            Zurück zur Startseite
           </Link>
 
           <h1
@@ -25,7 +25,7 @@ export default function ImpressumPage() {
 
           <div className="mt-8 space-y-8 text-sm leading-7 text-slate-600">
             <section>
-              <h2 className="text-lg font-semibold text-ink">Angaben gemaess Paragraf 5 TMG</h2>
+              <h2 className="text-lg font-semibold text-ink">Angaben gemäß § 5 TMG</h2>
               <p className="mt-3">
                 {contactDetails.advisor}
                 <br />
@@ -44,7 +44,7 @@ export default function ImpressumPage() {
             </section>
 
             <section>
-              <h2 className="text-lg font-semibold text-ink">Verantwortlich fuer den Inhalt</h2>
+              <h2 className="text-lg font-semibold text-ink">Verantwortlich für den Inhalt</h2>
               <p className="mt-3">
                 {contactDetails.advisor}
                 <br />
@@ -57,10 +57,10 @@ export default function ImpressumPage() {
             </section>
 
             <section>
-              <h2 className="text-lg font-semibold text-ink">Hinweis zur Taetigkeit</h2>
+              <h2 className="text-lg font-semibold text-ink">Hinweis zur Tätigkeit</h2>
               <p className="mt-3">
-                Diese Website informiert ueber Seminar- und Workshopformate rund um Karriere,
-                Finanzen und Berufseinstieg. Transparenz ist ausdruecklich Teil des Konzepts:{" "}
+                Diese Website informiert über Seminar- und Workshopformate rund um Karriere,
+                Finanzen und Berufseinstieg. Transparenz ist ausdrücklich Teil des Konzepts:{" "}
                 {contactDetails.advisor} ist Finanzberater bei {contactDetails.company}.
               </p>
             </section>
