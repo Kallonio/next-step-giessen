@@ -41,10 +41,6 @@ export default function DatenschutzPage() {
                 <br />
                 Telefon: {contactDetails.phone}
               </p>
-              <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-amber-900">
-                Vor dem finalen Go-live bitte die Platzhalter zur postalischen Anschrift noch mit
-                deinen echten Daten ersetzen.
-              </p>
             </section>
 
             <section>

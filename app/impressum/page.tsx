@@ -38,10 +38,8 @@ export default function ImpressumPage() {
                 E-Mail: {contactDetails.email}
                 <br />
                 Telefon: {contactDetails.phone}
-              </p>
-              <p className="mt-4 rounded-2xl bg-amber-50 px-4 py-3 text-amber-900">
-                Vor dem finalen Go-live bitte die Platzhalter zur postalischen Anschrift und die
-                berufsrechtlichen Pflichtangaben noch mit deinen echten Daten ersetzen.
+                <br />
+                {legalDetails.professionalInfo}
               </p>
             </section>
 
@@ -65,11 +63,6 @@ export default function ImpressumPage() {
                 Finanzen und Berufseinstieg. Transparenz ist ausdruecklich Teil des Konzepts:{" "}
                 {contactDetails.advisor} ist Finanzberater bei {contactDetails.company}.
               </p>
-            </section>
-
-            <section>
-              <h2 className="text-lg font-semibold text-ink">Berufsrechtliche Angaben</h2>
-              <p className="mt-3">{legalDetails.professionalInfo}</p>
             </section>
 
             <section>
