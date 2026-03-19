@@ -144,6 +144,16 @@ export const contactDetails = {
   company: "MLP Finanzberatung SE",
 };
 
+export const legalDetails = {
+  websiteDomain: "next-step-giessen.de",
+  mailService: "Resend, Resend Inc.",
+  hostingProvider: "Vercel Inc.",
+  postalAddressLine1: "Bahnhofstrasse 64",
+  postalAddressLine2: "35390 Giessen",
+  professionalInfo:
+    "Erlaubnis nach Paragraph 34d GewO. Zustaendige Aufsichtsbehoerde: IHK Limburg. Registrierungsnummer: D-QWDH-HVX0Z-33. Einsehbar im Vermittlerregister unter www.vermittlerregister.info.",
+};
+
 export const siteContent = {
   brand: {
     name: "Next Step Gießen",
